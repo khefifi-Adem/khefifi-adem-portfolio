@@ -60,7 +60,7 @@ header {
 /*   IMAGE   */
 
 .img {
-    background: var(--secondry-blue);
+    background: var(--primary-blue);
     width: 22rem;
     height: 100%;
     position: absolute;

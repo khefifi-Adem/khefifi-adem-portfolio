@@ -17,11 +17,11 @@
 :root {
   font-family: 'Poppins', sans-serif;
   /* CSS HEX */
-  --primary-blue: #80B2F2;
-  --secondry-blue: #66CAF2;
-  --third-blue: #011826;
-  --primary-caramel: #D98859;
-  --secondary-caramel: #BFA98E;
+  --primary-blue: #66CAF2;
+  --secondry-blue: #050A26;
+  --third-blue: #9295A6;
+  --primary-caramel: #323C59;
+  --secondary-caramel: #66CAF2;
   --color-white: #fff;
 
   /* width */
@@ -44,7 +44,7 @@ html {
 }
 
 body {
-  background-color: grey;
+  background-color: #030640;
   color: var(--color-white);
   line-height: 1.7;
   background-image: url("./assets/bg-pic.png");

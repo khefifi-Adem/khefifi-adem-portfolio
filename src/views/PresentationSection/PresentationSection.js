@@ -16,9 +16,9 @@ const PresentationSection = () => {
             </h1>
             <div id="#" className="container presentation_container">
 
-                <h5 className="text-light">
+                <h4 className="text-light">
                     Fullstack Developer
-                </h5>
+                </h4>
                 <Buttons />
 
                 <HeaderSocialIcons />
