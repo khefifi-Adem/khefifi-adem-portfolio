@@ -1,4 +1,5 @@
-
+import { AiOutlineContacts, AiOutlineHome, AiOutlineUser } from "react-icons/ai";
+import { GiSkills } from "react-icons/gi";
 import "./NavBar.css"
 import { useState } from "react";
 
@@ -14,26 +15,26 @@ const NavBar = () => {
                 className={active === '#' ? 'active' : ''}
                 onClick={() => setActive('#')}
                 href="/#">
-                <i className="bi bi-house-door-fill" />
+                <AiOutlineHome />
             </a>
 
             <a
                 className={active === '#about' ? 'active' : ''}
                 onClick={() => setActive('#about')}
                 href="/#about">
-                <i className="bi bi-person" />
+                <AiOutlineUser />
             </a>
             <a
                 className={active === '#skills' ? 'active' : ''}
                 onClick={() => setActive('#skills')}
                 href="/#skills">
-                <i className="bi bi-mortarboard" />
+                <GiSkills />
             </a>
             <a
                 className={active === '#contact' ? 'active' : ''}
                 onClick={() => setActive('#contact')}
                 href="/#contact">
-                <i className="bi bi-person-lines-fill" />
+                <AiOutlineContacts />
             </a>
         </nav>
     )

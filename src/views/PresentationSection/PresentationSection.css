@@ -2,6 +2,10 @@ header {
     height: 105vh;
     padding-top: 7rem;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .presentation_container {
@@ -57,10 +61,10 @@ header {
 
 .img {
     background: var(--secondry-blue);
-    width: 25rem;
-    height: 35rem;
+    width: 22rem;
+    height: 100%;
     position: absolute;
-    left: calc(50% - 11rem);
+    left: calc( 50% - 11rem );
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
@@ -76,4 +80,9 @@ header {
     .header_socials {
         display: none;
     }
+
+    header{
+        height: 150vh;
+    }
+
 }

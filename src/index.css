@@ -44,10 +44,12 @@ html {
 }
 
 body {
-  background: var(--third-blue);
+  background-color: grey;
   color: var(--color-white);
   line-height: 1.7;
   background-image: url("./assets/bg-pic.png");
+  background-attachment: fixed;
+
 
 }
 
@@ -77,8 +79,8 @@ section {
   height: 105vh;
 }
 
-section>h2,
-section>h5 {
+section>h3,
+section>h1 {
   text-align: center;
   color: var(--secondary-caramel);
 }
@@ -127,6 +129,12 @@ img {
   display: block;
   width: var(--container);
   object-fit: cover;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+
 }
 
 
